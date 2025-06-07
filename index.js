@@ -23,6 +23,7 @@ app.use(cors({
     "http://localhost:5173",
     "https://taqat-eight.vercel.app",
     "https://taqat-website-3wara.vercel.app",
+    "https://taqat-pi.vercel.app"
   ], 
   methods: ['GET', 'POST', 'PUT','PATCH', 'DELETE', 'OPTIONS'], // Allowed methods
   allowedHeaders: ['Content-Type', 'Authorization' , 'Access-Control-Allow-Origin'], // Allowed headers
